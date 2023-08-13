@@ -1,0 +1,20 @@
+div {
+    padding: 50px 30px 20px 10px ;
+    margin: 10px 10px 10px 10px;
+    border: 2px solid rgb(116, 110, 174);
+    background-color: rgba(115, 500, 200, 0.5);
+}
+
+#specialdiv {
+    padding: 50px;
+    background-color: yellowgreen;
+}
+
+#mypar {
+    font-size:200%;
+    font-family:'Times New Roman';
+}
+
+.different {
+    border: 2px dotted orange;
+}

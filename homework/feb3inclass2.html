@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang=en>
+    <head>
+        <title>Feb3 in class final input</title>
+    </head>
+    <body>
+        <style>
+            div, p {
+                margin: 10px;
+            }
+        </style>
+        <div>
+            <form action="feb3inclass2-output.php" method="post">
+                <div>
+                    <label for="r"> Rows in table (between 5 and 100): </label>
+                    <input id="r" type="text" name="row" size="3">
+                </div>
+                <div>
+                    <label for="c"> Columns in table (between 3 and 10): </label>
+                    <input id="c" type="text" name="col" size="2">
+                </div>
+                <div>
+                    <label for="rtoh"> Row number to highlight: </label>
+                    <input id="rtoh" type="text" name="rowToHighlight" size="3">
+                </div>
+                <div>
+                    <label for="ctoh"> Col number to highlight: </label>
+                    <input id="ctoh" type="text" name="colToHighlight" size="2">
+                </div>
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
+            </form>
+        </div>
+    </body>
+</html>

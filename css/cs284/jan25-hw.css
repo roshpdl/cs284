@@ -1,0 +1,66 @@
+/** 
+* Author: Roshan Poudel
+* @created for CS287 Jan25 (Homework 2)
+* styling a html page using CSS
+*/
+
+#firstdiv {
+    width: 40%;
+    border: dotted thin rgb(60, 59, 59);
+    margin: 20px;
+
+}
+
+#firstdiv h1 {
+    color:rgb(104, 76, 76);
+    padding: 50px;
+    padding-left: 30px;
+    border: solid 5px blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+#firstrow td {
+    background-color: rgb(6, 6, 113);
+    color: white;
+    font-size: x-large;
+    padding: 20px;
+}
+
+td {
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid gray;
+}
+
+.altrow td {
+    background-color: lightyellow;
+}
+
+#seconddiv {
+    width: 60%;
+    border: dotted thin orange;
+    margin: 20px;
+}
+
+#seconddiv h1 {
+    margin: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+    background-color: rgb(2, 65, 2);
+    color: pink;
+}
+
+#seconddiv p {
+    padding: 10px;
+}

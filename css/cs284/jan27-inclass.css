@@ -1,0 +1,11 @@
+p {
+    color: blue;
+}
+
+#firstdiv {
+    color: red;
+}
+
+#firstdiv_part1 p {
+    color: red;
+}

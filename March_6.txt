@@ -1,0 +1,26 @@
+CREATE TABLE zz_03_06_teams (
+    team_id char(3) PRIMARY KEY,
+    college_name VARCHAR(30),
+    mascot VARCHAR(30)
+);
+
+INSERT INTO zz_03_06_teams (team_id, college_name, mascot)
+VALUES
+    ('rho', 'Rhodes', 'Lynx'),
+    ('sew', 'Sewanee', 'tigers');
+
+CREATE TABLE zz_03_06_players(
+    player_id VARCHAR(10) PRIMARY KEY,
+    last_name VARCHAR(30),
+    first_name VARCHAR(30),
+    team_id VARCHAR(10),
+    FOREIGN KEY(team_id) REFERENCES zz_03_06_teams(team_id)
+);
+
+INSERT INTO zz_03_06_players (player_id, last_name, first_name, team_id)
+VALUES
+    ('marrru00', 'Marr', 'Russ', 'sew');
+
+INSERT INTO zz_03_06_players (player_id, last_name, first_name, team_id)
+VALUES
+    ('willra00', 'Williams', 'Rashaun', 'sew');

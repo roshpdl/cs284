@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $('#color').change(function(){
+                let c = $(this).val();
+                $('#box').css("background-color", c);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div>
+        What color do you want the box to be?
+        <select id="color">
+            <option>Pick a color</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select>
+    </div>
+
+    <div id="box">
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+/* body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F9FC;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 1em;
+  }
+  
+  /* form styling */
+  form {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 500px;
+    border: 2px solid #D6E3F3;
+    border-radius: 5px;
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  form select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+  
+  /* submit button styling */
+  input[type=submit] {
+    background-color: #4E92DF;
+    color: #FFF;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    /* Set animation styles */
+    animation-name: levitate;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  
+  
+#results {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  #error {
+    background-color: #ff8080;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: dodgerblue;
+    animation: shake 0.5s;
+  }
+  
+  @keyframes levitate {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }

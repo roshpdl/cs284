@@ -1,0 +1,21 @@
+form {
+    margin: 20px;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+}
+
+input#r, input#c {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input.sub {
+    background-color: lightblue;
+    color: navy;
+}
+
+input.sub:hover {
+    transform: scale(1.2);
+    background-color: lightgray;
+    transition: all 0.2s ease-in-out;
+}

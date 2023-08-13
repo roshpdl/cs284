@@ -1,0 +1,40 @@
+CREATE TABLE zz_vg (
+    game_id char(8),
+    game_name varchar(100),
+    game_type varchar(10),
+    game_developer varchar(10),
+    date_of_first_release year,
+    PRIMARY KEY(game_id)
+
+);
+
+INSERT INTO zz_vg SET
+game_id='mario001',
+game_name='Super Mario Bros',
+game_type='platform2',
+game_developer='Nintendo',
+date_of_first_release='1985';
+
+UPDATE zz_vg SET game_name='Some Awesome Game' WHERE game_id='gamex001';
+
+UPDATE zz_vg SET game_name='Sick Game' WHERE game_developer='Nintendo';
+
+DELETE FROM zz_vg WHERE game_id='gamex001';
+
+ALTER TABLE zz_vg ADD COLUMN (console varchar(10), number_of_players int);
+
+ALTER TABLE zz_vg drop column console;
+
+ALTER TABLE zz_vg ADD COLUMN (console varchar(10) DEFAULT 'pc');
+
+
+
+CREATE TABLE zz_vg_types (
+    game_type varchar(10),
+    type_description varchar(1000),
+
+    PRIMARY KEY(game_type)
+);
+
+INSERT INTO zz_vg_types set game_type='platform2', type_description='That deal where characters jump from platform to platform which is definitely entire genre';
+

@@ -1,0 +1,136 @@
+body {
+    border: 3px solid rgb(169, 166, 166);
+    margin: 100px;
+    background-image: url(../../images/cs284/3.jpg);
+    background-position: top;
+    background-attachment: fixed;
+
+}
+
+#banner {
+    border-collapse: collapse;
+    background-color: rgb(147, 209, 230);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 20px;
+    margin-top: 30px;
+
+}
+
+#banner .topline {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 6px blue, 0 0 5px red;
+    margin-bottom: 0%;
+}
+
+#banner p{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: LightGray;
+    text-shadow: 2px 2px 5px black, 0 0 25px red, 0 0 10px darkblue;
+}
+
+#leftsidebar {
+    float: left;
+    width: 20%;
+    background-color: rgb(147, 209, 230);
+    border: 40px solid rgb(147, 209, 230);
+    margin: -20px 20px 20px 20px;
+}
+
+.important {
+    border: 2px solid black;
+    background-color: white;
+    margin: 20px;
+}
+
+.important > h1 {
+    text-indent: 20px;
+    color: rgb(208, 198, 198);
+}
+
+.important .list-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-indent: 5px;
+    color: orange;
+}
+
+.important ol {
+    padding-left: 60px;
+    margin-top: -10px;
+    display: inline-block;
+
+}
+
+.important li {
+    border: none;
+    list-style-type: lower-alpha;
+}
+
+.important li:hover, .important a:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.2);
+    background-color: yellow;
+}
+
+.important p {
+    text-align: left;
+    margin: 20px;
+}
+
+div > h1 {
+    color: red;
+    text-indent: 20px;
+}
+
+.list-title {
+    text-indent: 20px;
+}
+
+li {
+    border: 1px solid black;
+    list-style-type: none;
+}
+
+li:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.2);
+    background-color: orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main {
+    width: auto;
+    margin: -100px 20px 20px 20px;
+    text-align: justify;
+    
+}
+
+#main .invisible {
+    opacity: 0;
+}
+
+#main .barely_visible {
+    opacity: 0.1;
+}
+
+img {
+    float: right;
+    padding: 10px;
+    margin: 20px;
+}
+
+.nice {
+    border-radius: 20px;
+    border: 1px solid black;
+}
