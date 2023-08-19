@@ -5,3 +5,7 @@ Description: This repository contains essential code files developed during the 
 
 Languages and Technologies: MySQL, HTML5, CSS3, PHP, Python, JQuery
 
+### Site Walk-though
+
+<img src="http://g.recordit.co/lnTA4WQDn0.gif](https://recordit.co/v5CyQbhw0f)https://recordit.co/v5CyQbhw0f" width=400><br>
+
