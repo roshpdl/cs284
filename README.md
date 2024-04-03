@@ -6,4 +6,6 @@ Description: This repository contains essential code files developed during the 
 Languages and Technologies: MySQL, HTML5, CSS3, PHP, Python, JQuery
 
 ### Walkthrough
-[view](https://recordit.co/v5CyQbhw0f)
+https://github.com/roshpdl/cs284/assets/93838270/ae032a25-8bdb-4a04-9903-812968b3a5eb
+
+
